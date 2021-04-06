@@ -1,10 +1,10 @@
 {
   "name": "create-react-component",
-  "publisher": "chrispaynter",
+  "publisher": "sirtakidancers",
   "displayName": "Create React Component",
   "description": "Create an opinionated folder structure for a component.",
   "version": "0.0.1",
-  "repository": "https://github.com/chrispaynter/create-react-component",
+  "repository": "https://github.com/sirtakidancers/create-react-component",
   "engines": {
     "vscode": "^1.44.0"
   },

@@ -60,7 +60,7 @@ export function activate(context: vscode.ExtensionContext) {
           componentFolderPath + path.sep + componentName + '.tsx';
 
         const extension = vscode.extensions.getExtension(
-          'chrispaynter.create-react-component'
+          'sirtakidancers.create-react-component'
         );
 
         vscode.workspace
