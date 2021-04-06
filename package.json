@@ -12,41 +12,31 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:create-react-component.default",
-    "onCommand:create-react-component.styled",
-    "onCommand:create-react-component.styled-native"
+    "onCommand:create-react-component.default-component",
+    "onCommand:create-react-component.page-component"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "create-react-component.default",
+        "command": "create-react-component.default-component",
         "title": "React Component"
       },
       {
-        "command": "create-react-component.styled",
-        "title": "React Component (with Styled Components)"
-      },
-      {
-        "command": "create-react-component.styled-native",
-        "title": "React Native Component (with Styled Components)"
+        "command": "create-react-component.page-component",
+        "title": "React Page Component"
       }
     ],
     "menus": {
       "explorer/context": [
         {
           "when": "explorerResourceIsFolder",
-          "command": "create-react-component.default",
+          "command": "create-react-component.default-component",
           "group": "YourGroup@1"
         },
         {
           "when": "explorerResourceIsFolder",
-          "command": "create-react-component.styled",
-          "group": "YourGroup@1"
-        },
-        {
-          "when": "explorerResourceIsFolder",
-          "command": "create-react-component.styled-native",
+          "command": "create-react-component.page-component",
           "group": "YourGroup@1"
         }
       ]

@@ -1,0 +1,29 @@
+import * as React from 'react';
+
+import Layout from 'shared/components/common/Layout';
+import Page from 'shared/components/common/Page';
+import ${componentName}Store from 'shared/store/${componentName}Store';
+
+import { Container } from './styles';
+
+type Props = {
+  store: ${componentName}Store;
+};
+
+const ${componentName}: React.FC<Props> = ({ store }: Props) => {
+  return (
+    <Page
+      withTopPadding={false}
+      withBottomPadding={false}
+      errorCode={store.codeErrorPage}
+    >
+      <Layout>
+        <Container>
+
+        </Container>
+      </Layout>
+    </Page>
+  );
+};
+
+export default React.memo(${componentName});
